@@ -1,0 +1,254 @@
+(function () {
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+  (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["tab4-tab4-module"], {
+    /***/
+    "1GDv":
+    /*!*************************************!*\
+      !*** ./src/app/tab4/tab4.module.ts ***!
+      \*************************************/
+
+    /*! exports provided: Tab4PageModule */
+
+    /***/
+    function GDv(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "Tab4PageModule", function () {
+        return Tab4PageModule;
+      });
+      /* harmony import */
+
+
+      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! tslib */
+      "mrSG");
+      /* harmony import */
+
+
+      var _ionic_angular__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! @ionic/angular */
+      "TEn/");
+      /* harmony import */
+
+
+      var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @angular/router */
+      "tyNb");
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! @angular/common */
+      "ofXK");
+      /* harmony import */
+
+
+      var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      /*! @angular/forms */
+      "3Pt+");
+      /* harmony import */
+
+
+      var _tab4_page__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+      /*! ./tab4.page */
+      "Wxre");
+      /* harmony import */
+
+
+      var _explore_container_explore_container_module__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+      /*! ../explore-container/explore-container.module */
+      "qtYk");
+      /* harmony import */
+
+
+      var _tab4_routing_module__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+      /*! ./tab4-routing.module */
+      "dkQB");
+
+      var Tab4PageModule = function Tab4PageModule() {
+        _classCallCheck(this, Tab4PageModule);
+      };
+
+      Tab4PageModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
+        imports: [_ionic_angular__WEBPACK_IMPORTED_MODULE_1__["IonicModule"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["CommonModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"], _explore_container_explore_container_module__WEBPACK_IMPORTED_MODULE_7__["ExploreContainerComponentModule"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild([{
+          path: '',
+          component: _tab4_page__WEBPACK_IMPORTED_MODULE_6__["Tab4Page"]
+        }]), _tab4_routing_module__WEBPACK_IMPORTED_MODULE_8__["Tab3PageRoutingModule"]],
+        declarations: [_tab4_page__WEBPACK_IMPORTED_MODULE_6__["Tab4Page"]]
+      })], Tab4PageModule);
+      /***/
+    },
+
+    /***/
+    "Wxre":
+    /*!***********************************!*\
+      !*** ./src/app/tab4/tab4.page.ts ***!
+      \***********************************/
+
+    /*! exports provided: Tab4Page */
+
+    /***/
+    function Wxre(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "Tab4Page", function () {
+        return Tab4Page;
+      });
+      /* harmony import */
+
+
+      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! tslib */
+      "mrSG");
+      /* harmony import */
+
+
+      var _raw_loader_tab4_page_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! raw-loader!./tab4.page.html */
+      "kfDu");
+      /* harmony import */
+
+
+      var _tab4_page_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! ./tab4.page.scss */
+      "vacZ");
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+
+      var Tab4Page = function Tab4Page() {
+        _classCallCheck(this, Tab4Page);
+      };
+
+      Tab4Page.ctorParameters = function () {
+        return [];
+      };
+
+      Tab4Page = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"])({
+        selector: 'app-tab4',
+        template: _raw_loader_tab4_page_html__WEBPACK_IMPORTED_MODULE_1__["default"],
+        styles: [_tab4_page_scss__WEBPACK_IMPORTED_MODULE_2__["default"]]
+      })], Tab4Page);
+      /***/
+    },
+
+    /***/
+    "dkQB":
+    /*!*********************************************!*\
+      !*** ./src/app/tab4/tab4-routing.module.ts ***!
+      \*********************************************/
+
+    /*! exports provided: Tab3PageRoutingModule */
+
+    /***/
+    function dkQB(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony export (binding) */
+
+
+      __webpack_require__.d(__webpack_exports__, "Tab3PageRoutingModule", function () {
+        return Tab3PageRoutingModule;
+      });
+      /* harmony import */
+
+
+      var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+      /*! tslib */
+      "mrSG");
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+      /*! @angular/core */
+      "fXoL");
+      /* harmony import */
+
+
+      var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! @angular/router */
+      "tyNb");
+      /* harmony import */
+
+
+      var _tab4_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ./tab4.page */
+      "Wxre");
+
+      var routes = [{
+        path: '',
+        component: _tab4_page__WEBPACK_IMPORTED_MODULE_3__["Tab4Page"]
+      }];
+
+      var Tab3PageRoutingModule = function Tab3PageRoutingModule() {
+        _classCallCheck(this, Tab3PageRoutingModule);
+      };
+
+      Tab3PageRoutingModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+        imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild(routes)],
+        exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+      })], Tab3PageRoutingModule);
+      /***/
+    },
+
+    /***/
+    "kfDu":
+    /*!***************************************************************************!*\
+      !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/tab4/tab4.page.html ***!
+      \***************************************************************************/
+
+    /*! exports provided: default */
+
+    /***/
+    function kfDu(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony default export */
+
+
+      __webpack_exports__["default"] = "<ion-header>\n  <ion-toolbar color=\"secondary\">\n    <ion-title>\n      Data Covid19\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content [fullscreen]=\"true\">\n  <ion-header collapse=\"condense\">\n    <ion-toolbar>\n      <ion-title size=\"large\">Tab 4</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-row class=\"ion-text-center align-items-center\">\n    <ion-col size=\"12\">\n      <ion-text><h4>Account</h4></ion-text>\n    </ion-col> \n  </ion-row>\n\n  <!-- <app-explore-container name=\"Tab 4 page\"></app-explore-container> -->\n</ion-content>\n";
+      /***/
+    },
+
+    /***/
+    "vacZ":
+    /*!*************************************!*\
+      !*** ./src/app/tab4/tab4.page.scss ***!
+      \*************************************/
+
+    /*! exports provided: default */
+
+    /***/
+    function vacZ(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony default export */
+
+
+      __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3RhYjQvdGFiNC5wYWdlLnNjc3MifQ== */";
+      /***/
+    }
+  }]);
+})();
+//# sourceMappingURL=tab4-tab4-module-es5.js.map

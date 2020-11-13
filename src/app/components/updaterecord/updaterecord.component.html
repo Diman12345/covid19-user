@@ -1,0 +1,45 @@
+<ion-row class="ion-text-center align-items-center">
+  <ion-col size="12">
+    <ion-text><h4>UPDATE RECORD</h4></ion-text>
+  </ion-col>
+  <ion-col size="10">
+    <ion-item>
+      <ion-label>Name : </ion-label>
+      <ion-input [(ngModel)]="name" placeholder="Name"></ion-input>
+    </ion-item>
+  </ion-col>
+  <ion-col size="10">
+    <ion-item>
+      <ion-label>Age : </ion-label>
+      <ion-input [(ngModel)]="age" placeholder="Age"></ion-input>
+    </ion-item>
+  </ion-col>
+  <ion-col size="10">
+    <ion-item>
+      <ion-label>Address : </ion-label>
+      <ion-input [(ngModel)]="address" placeholder="Address"></ion-input>
+    </ion-item>
+  </ion-col>
+  <ion-col size="8">
+    <ion-label>Gender : </ion-label>
+    <ion-select [(ngModel)]="type" placeholder="Select Gender">
+      <ion-select-option value="male">Male</ion-select-option>
+      <ion-select-option value="female">Female</ion-select-option>
+    </ion-select>
+  </ion-col>
+  <ion-col size="8">
+    <ion-label>Location : </ion-label>
+    <ion-select [(ngModel)]="loc" placeholder="Select Location">
+      <ion-select-option value="jakarta">Jakarta</ion-select-option>
+      <ion-select-option value="sumatera">Sumatera</ion-select-option>
+      <ion-select-option value="kalimantan">Kalimantan</ion-select-option>
+    </ion-select>
+  </ion-col>
+  <ion-col size="10" offset="1">
+    <ion-button expand="block" color="success" (click)="UpdateRecord(name, age, address, type, loc)">Update</ion-button>
+  </ion-col>
+  <ion-col size="10" offset="1">
+    <ion-button expand="block" color="danger" (click)="CloseModal()">Cancel</ion-button>
+  </ion-col>
+</ion-row>  
+<ion-row>   

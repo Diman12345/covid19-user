@@ -1,0 +1,8 @@
+{
+  "name": "instag",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}

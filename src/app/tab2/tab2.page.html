@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>
+      Data Covid19
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+  <ion-row>    
+    <ion-col size="12">        
+        <h4>
+          Your last records
+        </h4>
+        <ion-row  >       
+          <ion-col size="3">
+            Name
+          </ion-col>
+          <ion-col size="5">
+            Age
+          </ion-col>
+          <ion-col size="4" class="ion-text-center align-items-center">
+            Action
+          </ion-col>
+        </ion-row>
+        <ion-row  class="align-items-center" *ngFor="let record of records; let i = index">
+          <ion-col  size="3">             
+            <ion-note>{{record.name}}</ion-note>
+          </ion-col>
+          <ion-col size="5">
+            <ion-note>{{record.age}}</ion-note>
+          </ion-col>
+          <ion-col size="4">
+            <ion-button size="small" color="primary" (click)="UpdateRecord(record.id, record.name, record.age, record.address, record.type, record.loc)"><ion-icon name="create-outline"></ion-icon></ion-button>
+            <ion-button size="small" color="danger" (click)="DeleteRecord(record.id)"><ion-icon name="trash-outline"></ion-icon></ion-button>
+          </ion-col>
+        </ion-row>
+    </ion-col>
+  </ion-row>
+</ion-content>
+ 
